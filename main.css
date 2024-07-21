@@ -572,3 +572,32 @@ button {
 .item data {
     white-space: nowrap;
 }
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.meta img {
+    width: 50px;
+    height: 50px;
+}
+
+.creat {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.icon{
+    display: flex;
+    text-align: end;
+}
+i{
+    width: 100%;
+    display: flex;
+}
+i:hover{
+    color: red;
+}
